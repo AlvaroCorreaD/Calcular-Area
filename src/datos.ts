@@ -12,8 +12,7 @@ let dato2 = document.getElementById("dato2");
 let base: number = Number(dato1.value);
 let altura: number = Number(dato2.value);
 let area: number = base * altura;
-let btnEnv = document.getElementById("btnEnviarbase");
-let btnEnv = document.getElementById("btnEnviaraltura");
-btnEnv.addEventListener("click", () => {
+// let btnEnv = document.getElementById("btnEnviararea");
+// btnEnv.addEventListener("click", () => {
   console.log("El area es:", area);
 });
